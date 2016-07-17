@@ -13,4 +13,4 @@ new Date( 2009,0,20)	// this expression returns the time stamp for New Years 200
 // (c) If d1 and d2 refer to date objects, what does the expression d1. valueOf() - d2. valueOf() produce? 
 d1 = new Date( );
 d2 = new Date ( 2009,0,20);
-d1. valueOf() - d2. valueOf()	// returns: 236293199158 (the number of milliseconds between d1 and d2)
+d1. valueOf() - d2. valueOf()	// returns: 236293199158 (the number of milliseconds since Jan 20th, 2009 midnight)
